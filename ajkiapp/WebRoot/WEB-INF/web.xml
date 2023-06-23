@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<servlet>
+		<servlet-name>Circuit</servlet-name>
+		<servlet-class>com.sunrays.servlet.Circuit</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>MunnaBhai</servlet-name>
+		<servlet-class>com.sunrays.servlet.MunnaBhai</servlet-class>
+		<load-on-startup>1</load-on-startup>
+		
+	</servlet>
+	<servlet>
+		<servlet-name>TestForward</servlet-name>
+		<servlet-class>com.sunrays.servlet.TestForward</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>HelloWorld</servlet-name>
+		<servlet-class>com.sunrays.servlet.HelloWorld</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>TestServletConfigScope</servlet-name>
+		<servlet-class>
+			com.sunrays.servlet.TestServletConfigScope
+		</servlet-class>
+		<init-param>
+			<param-name>org</param-name>
+			<param-value>sunRays Technologies</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>SingleThreadSample</servlet-name>
+		<servlet-class>com.sunrays.servlet.SingleThreadSample</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>TestConfigJSP</servlet-name>
+		<jsp-file>/scope/TestConfig.jsp</jsp-file>
+		<init-param>
+			<param-name>org</param-name>
+			<param-value>sunRays Technologies</param-value>
+		</init-param>
+		
+		
+	</servlet>
+	<servlet>
+		<servlet-name>RollnoCtl</servlet-name>
+		<servlet-class>com.sunrays.servlet.RollnoCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>StudentMgtCtl</servlet-name>
+		<servlet-class>com.sunrays.servlet.StudentMgtCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UploadServlet</servlet-name>
+		<servlet-class>com.sunrays.servlet.UploadServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>SendImage</servlet-name>
+    <servlet-class>com.sunrays.servlet.SendImage</servlet-class>
+  </servlet>
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Circuit</servlet-name>
+		<url-pattern>/Circuit</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MunnaBhai</servlet-name>
+		<url-pattern>/MunnaBhai</url-pattern>
+	</servlet-mapping>
+
+	<description>
+		IF MunnaBhai is replaced with Circuit then /mbbs will start
+		calling Circuit servlet
+	</description>
+	<servlet-mapping>
+		<servlet-name>MunnaBhai</servlet-name>
+		<url-pattern>/mbbs</url-pattern>
+	</servlet-mapping>
+
+	<!--  All URLs coming with *.edu patterns like abc.edu, 
+		xyz.edu will be directed to Circuit servlets -->
+
+	<servlet-mapping>
+		<servlet-name>Circuit</servlet-name>
+		<url-pattern>*.edu</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>TestForward</servlet-name>
+		<url-pattern>/servlet/TestForward</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>TestServletConfigScope</servlet-name>
+		<url-pattern>/servlet/TestServletConfigScope</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>TestConfigJSP</servlet-name>
+		<url-pattern>/jsp/TestConfigJSP</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>SingleThreadSample</servlet-name>
+		<url-pattern>/servlet/SingleThreadSample</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/servlet/HelloWorld</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RollnoCtl</servlet-name>
+		<url-pattern>/servlet/RollnoCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StudentMgtCtl</servlet-name>
+		<url-pattern>/StudentMgtCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<url-pattern>/servlet/UploadServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendImage</servlet-name>
+    <url-pattern>/servlet/SendImage</url-pattern>
+  </servlet-mapping>
+
+
+	<filter id="filter1">
+		<filter-name>PreHello</filter-name>
+		<filter-class>com.sunrays.filter.MyFilter</filter-class>
+
+	</filter>
+	<filter-mapping>
+		<filter-name>PreHello</filter-name>
+		<servlet-name>HelloWorld</servlet-name>
+	</filter-mapping>
+
+	<env-entry>
+		<env-entry-name>organization</env-entry-name>
+		<env-entry-type>java.lang.String</env-entry-type>
+		<env-entry-value>
+			NenoSystems Consulting Services
+		</env-entry-value>
+	</env-entry>
+
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/ExceptionHandler.jsp</location>
+	</error-page>
+
+
+</web-app>
