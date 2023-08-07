@@ -8,9 +8,9 @@ A program to get all session attributes. Use URL
 http://localhost:8080/ajkiapp/session/GetSession.jsp 
 to test it 
 
-copyright (c) sunRays Technologies Indore
-@author: Sunil Sahu
-@url : www.sunrays.co.in
+copyright (c) WebDev Technologies Indore
+@author: Arif Sheikh
+@url : www.WebDev.co.in
 
  -->	
 		<H1>

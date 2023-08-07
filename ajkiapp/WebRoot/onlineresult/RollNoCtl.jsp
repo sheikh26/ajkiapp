@@ -1,4 +1,4 @@
-<%@page import="com.sunrays.dto.MarksheetDTO"%>
+<%@page import="com.WebDev.dto.MarksheetDTO"%>
 <%@page import="java.util.*"%>
 
 <%

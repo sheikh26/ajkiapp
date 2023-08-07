@@ -1,16 +1,16 @@
-package com.sunrays.services;
+package com.WebDev.services;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
-import com.sunrays.dto.StudentDTO;
-import com.sunrays.dto.UserDTO;
+import com.WebDev.dto.StudentDTO;
+import com.WebDev.dto.UserDTO;
 
-import com.sunrays.dto.MarksheetDTO;
-import com.sunrays.dto.StudentDTO;
-import com.sunrays.dto.UserDTO;
-import com.sunrays.resources.MessageHandler;
+import com.WebDev.dto.MarksheetDTO;
+import com.WebDev.dto.StudentDTO;
+import com.WebDev.dto.UserDTO;
+import com.WebDev.resources.MessageHandler;
 
 public class StudentServices {
 

@@ -32,12 +32,12 @@ It contains an example of forward and request object scope with help of JSP and
 Servlet.  To test Servlet uncomment code in A.jsp
 
 Use below URLs to test the functionality
-  http://localhost:8080/ajkiapp/forward/A.jsp?param=sunRays
+  http://localhost:8080/ajkiapp/forward/A.jsp?param=WebDev
 
 
 **/sendRedirect
 It contains an example of sendredirect
- http://localhost:8080/ajkiapp/forward/A.jsp?param=sunRays
+ http://localhost:8080/ajkiapp/forward/A.jsp?param=WebDev
  
 **/declarative
 It contains eaxmple code for <%! Declarative Tag %>. That defines global attibues 

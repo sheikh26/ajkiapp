@@ -1,5 +1,5 @@
-<%@page import="com.sunrays.dto.StudentDTO"%>
-<%@page import="com.sunrays.services.StudentServices"%>
+<%@page import="com.WebDev.dto.StudentDTO"%>
+<%@page import="com.WebDev.services.StudentServices"%>
 
 <%
 	/*
@@ -11,7 +11,7 @@
 	 */
 %>
 
-<jsp:useBean id="std" class="com.sunrays.dto.StudentDTO" scope="request"></jsp:useBean>
+<jsp:useBean id="std" class="com.WebDev.dto.StudentDTO" scope="request"></jsp:useBean>
 
 <jsp:setProperty property="*" name="std" />
 

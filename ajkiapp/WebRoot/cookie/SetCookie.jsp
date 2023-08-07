@@ -5,9 +5,9 @@ A program to set a cookie. Use URL
 http://localhost:8080/ajkiapp/cookie/SetCookie.jsp?name=city&value=Indore 
 to call this page and set a cookie
 
-copyright (c) sunRays Technologies Indore
-@author: Sunil Sahu
-@url : www.sunrays.co.in
+copyright (c) WebDev Technologies Indore
+@author: Arif Sheikh
+@url : www.WebDev.co.in
 
  -->
 	<BODY>

@@ -1,4 +1,4 @@
-package com.sunrays.dto;
+package com.WebDev.dto;
 
 public class UserDTO {
 	private String name = null;

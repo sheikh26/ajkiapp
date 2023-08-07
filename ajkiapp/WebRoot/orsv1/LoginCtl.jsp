@@ -1,4 +1,4 @@
-<%@page import="com.sunrays.dto.MarksheetDTO,java.util.Vector"%>
+<%@page import="com.WebDev.dto.MarksheetDTO,java.util.Vector"%>
 
 
 <%
@@ -7,7 +7,7 @@
 
 	//Make jdbc collection
 
-	if (!id.equals("sunrays")) {
+	if (!id.equals("WebDev")) {
 		request.setAttribute("error", "Login avedh he");
 %>
 

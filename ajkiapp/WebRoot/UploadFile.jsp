@@ -6,7 +6,7 @@
 			<table border="1" cellspacing="1" bgcolor="yellow">
 				<tr>
 					<td colspan="2">
-						<b>Sunrays Upload Image</b>
+						<b>WebDev Upload Image</b>
 					</td>
 				</tr>
 				<tr>

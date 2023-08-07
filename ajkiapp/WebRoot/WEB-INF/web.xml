@@ -6,39 +6,39 @@
 
 	<servlet>
 		<servlet-name>Circuit</servlet-name>
-		<servlet-class>com.sunrays.servlet.Circuit</servlet-class>
+		<servlet-class>com.WebDev.servlet.Circuit</servlet-class>
 		<load-on-startup>0</load-on-startup>
 	</servlet>
 	<servlet>
 		<servlet-name>MunnaBhai</servlet-name>
-		<servlet-class>com.sunrays.servlet.MunnaBhai</servlet-class>
+		<servlet-class>com.WebDev.servlet.MunnaBhai</servlet-class>
 		<load-on-startup>1</load-on-startup>
 		
 	</servlet>
 	<servlet>
 		<servlet-name>TestForward</servlet-name>
-		<servlet-class>com.sunrays.servlet.TestForward</servlet-class>
+		<servlet-class>com.WebDev.servlet.TestForward</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>HelloWorld</servlet-name>
-		<servlet-class>com.sunrays.servlet.HelloWorld</servlet-class>
+		<servlet-class>com.WebDev.servlet.HelloWorld</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>TestServletConfigScope</servlet-name>
 		<servlet-class>
-			com.sunrays.servlet.TestServletConfigScope
+			com.WebDev.servlet.TestServletConfigScope
 		</servlet-class>
 		<init-param>
 			<param-name>org</param-name>
-			<param-value>sunRays Technologies</param-value>
+			<param-value>WebDev Technologies</param-value>
 		</init-param>
 	</servlet>
 
 	<servlet>
 		<servlet-name>SingleThreadSample</servlet-name>
-		<servlet-class>com.sunrays.servlet.SingleThreadSample</servlet-class>
+		<servlet-class>com.WebDev.servlet.SingleThreadSample</servlet-class>
 	</servlet>
 
 	<servlet>
@@ -46,26 +46,26 @@
 		<jsp-file>/scope/TestConfig.jsp</jsp-file>
 		<init-param>
 			<param-name>org</param-name>
-			<param-value>sunRays Technologies</param-value>
+			<param-value>WebDev Technologies</param-value>
 		</init-param>
 		
 		
 	</servlet>
 	<servlet>
 		<servlet-name>RollnoCtl</servlet-name>
-		<servlet-class>com.sunrays.servlet.RollnoCtl</servlet-class>
+		<servlet-class>com.WebDev.servlet.RollnoCtl</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>StudentMgtCtl</servlet-name>
-		<servlet-class>com.sunrays.servlet.StudentMgtCtl</servlet-class>
+		<servlet-class>com.WebDev.servlet.StudentMgtCtl</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>UploadServlet</servlet-name>
-		<servlet-class>com.sunrays.servlet.UploadServlet</servlet-class>
+		<servlet-class>com.WebDev.servlet.UploadServlet</servlet-class>
 	</servlet>
   <servlet>
     <servlet-name>SendImage</servlet-name>
-    <servlet-class>com.sunrays.servlet.SendImage</servlet-class>
+    <servlet-class>com.WebDev.servlet.SendImage</servlet-class>
   </servlet>
 
 
@@ -144,7 +144,7 @@
 
 	<filter id="filter1">
 		<filter-name>PreHello</filter-name>
-		<filter-class>com.sunrays.filter.MyFilter</filter-class>
+		<filter-class>com.WebDev.filter.MyFilter</filter-class>
 
 	</filter>
 	<filter-mapping>

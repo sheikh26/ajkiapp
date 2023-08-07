@@ -1,3 +1,3 @@
 
 <HR>
-Copyright (C) sunRays Technologies
+Copyright (C) WebDev Technologies

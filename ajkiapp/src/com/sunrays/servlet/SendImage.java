@@ -1,4 +1,4 @@
-package com.sunrays.servlet;
+package com.WebDev.servlet;
 
 import java.io.FileInputStream;
 import java.io.IOException;

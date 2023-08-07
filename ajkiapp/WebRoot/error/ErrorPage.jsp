@@ -4,9 +4,9 @@
 
 A program to check the error in JSP.
 
-copyright (c) sunRays Technologies Indore
-@author: Sunil Sahu
-@url : www.sunrays.co.in
+copyright (c) WebDev Technologies Indore
+@author: Arif Sheikh
+@url : www.WebDev.co.in
 
  -->
  

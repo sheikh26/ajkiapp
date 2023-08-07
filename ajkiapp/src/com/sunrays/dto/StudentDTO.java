@@ -1,4 +1,4 @@
-package com.sunrays.dto;
+package com.WebDev.dto;
 
 public class StudentDTO {
 

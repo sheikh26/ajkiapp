@@ -1,4 +1,4 @@
-package com.sunrays.resources;
+package com.WebDev.resources;
 
 import java.util.ResourceBundle;
 

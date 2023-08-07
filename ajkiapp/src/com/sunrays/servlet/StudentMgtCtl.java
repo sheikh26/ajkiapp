@@ -1,4 +1,4 @@
-package com.sunrays.servlet;
+package com.WebDev.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.sunrays.dto.StudentDTO;
-import com.sunrays.services.StudentServices;
+import com.WebDev.dto.StudentDTO;
+import com.WebDev.services.StudentServices;
 
 public class StudentMgtCtl extends HttpServlet {
 

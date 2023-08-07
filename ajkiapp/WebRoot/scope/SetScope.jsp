@@ -12,9 +12,9 @@ A program to set scope of jsp. Use URL
 http://localhost:8080/ajkiapp/scope/SetScope.jsp 
 to test it 
 
-copyright (c) sunRays Technologies Indore
-@author: Sunil Sahu
-@url : www.sunrays.co.in
+copyright (c) WebDev Technologies Indore
+@author: Arif Sheikh
+@url : www.WebDev.co.in
 
  -->
 	<body>
